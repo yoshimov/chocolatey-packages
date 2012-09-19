@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>xyzzy</id>
+    <title>xyzzy</title>
+    <version>0.2.2.235</version>
+    <authors>kamei</authors>
+    <owners>Yoshimov</owners>
+    <summary>xyzzy</summary>
+    <description>xyzzy</description>
+    <projectUrl>http://www.jsdlab.co.jp/~kamei/</projectUrl>
+    <tags>xyzzy admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.jsdlab.co.jp/~kamei/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/xyzzy/xyzzy.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
