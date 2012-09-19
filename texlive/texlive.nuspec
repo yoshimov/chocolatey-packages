@@ -6,8 +6,8 @@
     <version>2012.0919</version>
     <authors>TUG</authors>
     <owners>Yoshimov</owners>
-    <summary>texlive</summary>
-    <description>texlive</description>
+    <summary>TeX Live is an easy way to get up and running with the TeX document production system.</summary>
+    <description>TeX Live is an easy way to get up and running with the TeX document production system.</description>
     <projectUrl>http://www.tug.org/texlive/</projectUrl>
     <tags>texlive admin</tags>
     <copyright></copyright>

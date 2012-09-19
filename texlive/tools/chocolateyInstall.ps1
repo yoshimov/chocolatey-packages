@@ -17,8 +17,13 @@
   # unzips a file to the specified location - auto overwrites existing content
   Get-ChocolateyUnzip $zipfile "$parentpath"
   # Runs processes asserting UAC, will assert administrative rights - used by Install-ChocolateyInstallPackage
-  copy "$parentpath\tools\.wgetrc" "$parentpath\install-tl-20120919\tlpkg\installer\wget"
-  Start-ChocolateyProcessAsAdmin "$parentpath\install-tl-20120919\install-tl.bat -q --no-persistent-downloads" -validExitCodes @(0)
+  # set proxy
+  $rpath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings"
+  $proxyitem = Get-ItemProperty $rpath
+  $proxys = $proxyitem.ProxyServer
+  #$wgetrcfile = "$parentpath\install-tl-20120919\tlpkg\installer\wget\.wgetrc"
+  cmd /c "$parentpath\tools\proxyinstall.bat $parentpath\tools\texlive.profile $proxys"
+#  Start-ChocolateyProcessAsAdmin "$parentpath\install-tl-20120919\install-tl.bat -q --no-persistent-downloads -profile $parentpath\tools\texlive.profile" -validExitCodes @(0)
   # add specific folders to the path - any executables found in the chocolatey package folder will already be on the path. This is used in addition to that or for cases when a native installer doesn't add things to the path.
   #Install-ChocolateyPath 'LOCATION_TO_ADD_TO_PATH' 'User_OR_Machine' # Machine will assert administrative rights
   # add specific files as shortcuts to the desktop
