@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>eclipse-java-juno</id>
+    <title>eclipse-java-juno</title>
+    <version>4.2</version>
+    <authors>Eclipse Org</authors>
+    <owners>Yoshimov</owners>
+    <summary>eclipse-java-juno</summary>
+    <description>eclipse-java-juno</description>
+    <projectUrl>http://www.eclipse.org</projectUrl>
+    <tags>eclipse-java-juno admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.eclipse.org/org/documents/epl-v10.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/eclipse-java-juno/eclipse-java-juno.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
