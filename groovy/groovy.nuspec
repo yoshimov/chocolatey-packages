@@ -3,13 +3,13 @@
   <metadata>
     <id>groovy</id>
     <title>groovy</title>
-    <version>2.0.2</version>
+    <version>2.0.2.20120920</version>
     <authors>SpringSource</authors>
     <owners>Yoshimov</owners>
     <summary>Groovy is like a super version of Java.</summary>
     <description>Groovy is like a super version of Java. It can leverage Java's enterprise capabilities but also has cool productivity features like closures, builders and dynamic typing</description>
     <projectUrl>http://groovy.codehaus.org/</projectUrl>
-    <tags>groovy admin</tags>
+    <tags>groovy java lang</tags>
     <copyright></copyright>
     <licenseUrl>http://groovy.codehaus.org/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

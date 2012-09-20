@@ -3,13 +3,13 @@
   <metadata>
     <id>scala</id>
     <title>scala</title>
-    <version>2.9.2</version>
+    <version>2.9.2.20120920</version>
     <authors>Scala Developers</authors>
     <owners>Yoshimov</owners>
     <summary>Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</summary>
     <description>Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
     <projectUrl>http://www.scala-lang.org/</projectUrl>
-    <tags>scala admin</tags>
+    <tags>scala java lang</tags>
     <copyright></copyright>
     <licenseUrl>http://www.scala-lang.org/node/146</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
