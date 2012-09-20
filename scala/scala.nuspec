@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>scala</id>
+    <title>scala</title>
+    <version>2.9.2</version>
+    <authors>Scala Developers</authors>
+    <owners>Yoshimov</owners>
+    <summary>Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</summary>
+    <description>Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
+    <projectUrl>http://www.scala-lang.org/</projectUrl>
+    <tags>scala admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.scala-lang.org/node/146</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/scala/scala.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
