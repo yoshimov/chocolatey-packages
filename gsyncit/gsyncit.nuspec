@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gsyncit</id>
+    <title>gsyncit</title>
+    <version>3.6.34</version>
+    <authors>Fieldston Software</authors>
+    <owners>Yoshimov</owners>
+    <summary>gSyncit is a Microsoft Outlook add-in that allows for the synchronization of Outlook calendars, contacts, notes, and tasks with your Google account.</summary>
+    <description>gSyncit is a Microsoft Outlook add-in that allows for the synchronization of Outlook calendars, contacts, notes, and tasks with your Google account.</description>
+    <projectUrl>http://www.fieldstonsoftware.com/software/gsyncit3/</projectUrl>
+    <tags>gsyncit admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.fieldstonsoftware.com/software/gsyncit3/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/gsyncit/gsyncit.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
