@@ -14,9 +14,9 @@
     <licenseUrl>http://groovy.codehaus.org/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/groovy/groovy.gif</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="binroot" version="" />
+    </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
