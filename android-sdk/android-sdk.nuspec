@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>android-sdk</id>
+    <title>android-sdk</title>
+    <version>20.0.3</version>
+    <authors>Google</authors>
+    <owners>Yoshimov</owners>
+    <summary>The Android SDK provides you the API libraries and developer tools necessary to build, test, and debug apps for Android.</summary>
+    <description>The Android SDK provides you the API libraries and developer tools necessary to build, test, and debug apps for Android.</description>
+    <projectUrl>http://developer.android.com/sdk/</projectUrl>
+    <tags>android sdk google</tags>
+    <copyright>Google</copyright>
+    <licenseUrl>http://developer.android.com/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/android-sdk/sdk-cube.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
