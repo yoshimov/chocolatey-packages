@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>libreoffice</id>
+    <title>LibreOffice</title>
+    <version>3.6.1.20120921</version>
+    <authors>LibreOffice Developer</authors>
+    <owners>Yoshimov</owners>
+    <summary>libreoffice</summary>
+    <description>libreoffice</description>
+    <projectUrl>http://www.libreoffice.org/</projectUrl>
+    <tags>libreoffice office admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.libreoffice.org/download/license/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/libreoffice/libreoffice.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
