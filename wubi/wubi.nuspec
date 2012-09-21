@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wubi</id>
+    <title>wubi</title>
+    <version>12.04.20120921</version>
+    <authors>Canonical Ltd.</authors>
+    <owners>Yoshimov</owners>
+    <summary>Wubi (Windows-based UBuntu Installer) is an official Windows-based free software installer for Ubuntu, which installs the software on an existing Windows partition, thus without need for partitioning.</summary>
+    <description>Wubi (Windows-based UBuntu Installer) is an official Windows-based free software installer for Ubuntu, which installs the software on an existing Windows partition, thus without need for partitioning.</description>
+    <projectUrl>http://www.ubuntu.com/download/desktop/windows-installer</projectUrl>
+    <tags>wubi ubuntu admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.ubuntu.com/legal</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/wubi/download-picto-windows-large.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
