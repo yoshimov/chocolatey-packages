@@ -3,17 +3,17 @@
   <metadata>
     <id>freemind</id>
     <title>freemind</title>
-    <version>0.9.0</version>
+    <version>0.9.0.20120921</version>
     <authors>christianfoltin</authors>
     <owners>Yoshimov</owners>
     <summary>FreeMind is a premier free mind-mapping software written in Java.</summary>
     <description>FreeMind is a premier free mind-mapping software written in Java.</description>
     <projectUrl>http://freemind.sourceforge.net/wiki/index.php/Main_Page</projectUrl>
-    <tags>freemind admin</tags>
+    <tags>freemind diagram tool</tags>
     <copyright></copyright>
     <licenseUrl>http://freemind.sourceforge.net/wiki/index.php/Main_Page#License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/freemind/freemind.gif</iconUrl>-->
+    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/freemind/freemind.gif</iconUrl>-->
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
