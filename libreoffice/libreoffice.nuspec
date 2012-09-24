@@ -3,11 +3,11 @@
   <metadata>
     <id>libreoffice</id>
     <title>LibreOffice</title>
-    <version>3.6.1.20120921</version>
+    <version>3.6.1.20120924</version>
     <authors>LibreOffice Developer</authors>
     <owners>Yoshimov</owners>
-    <summary>libreoffice</summary>
-    <description>libreoffice</description>
+    <summary>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs.</summary>
+    <description>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs.</description>
     <projectUrl>http://www.libreoffice.org/</projectUrl>
     <tags>libreoffice office admin</tags>
     <copyright></copyright>
