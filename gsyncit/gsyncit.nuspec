@@ -3,16 +3,16 @@
   <metadata>
     <id>gsyncit</id>
     <title>gsyncit</title>
-    <version>3.6.34</version>
+    <version>3.6.37</version>
     <authors>Fieldston Software</authors>
     <owners>Yoshimov</owners>
     <summary>gSyncit is a Microsoft Outlook add-in that allows for the synchronization of Outlook calendars, contacts, notes, and tasks with your Google account.</summary>
     <description>gSyncit is a Microsoft Outlook add-in that allows for the synchronization of Outlook calendars, contacts, notes, and tasks with your Google account.</description>
     <projectUrl>http://www.fieldstonsoftware.com/software/gsyncit3/</projectUrl>
-    <tags>gsyncit admin</tags>
+    <tags>gsyncit admin outlook calendar google sync</tags>
     <copyright></copyright>
     <licenseUrl>http://www.fieldstonsoftware.com/software/gsyncit3/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/gsyncit/gsyncit.gif</iconUrl>-->
     <!--<dependencies>
       <dependency id="" version="" />
