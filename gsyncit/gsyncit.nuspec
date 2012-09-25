@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>gsyncit</id>
-    <title>gsyncit</title>
+    <title>gSyncit</title>
     <version>3.6.37</version>
     <authors>Fieldston Software</authors>
     <owners>Yoshimov</owners>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.fieldstonsoftware.com/software/gsyncit3/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/gsyncit/gsyncit.gif</iconUrl>-->
+    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/gsyncit/gsyncit.gif</iconUrl>-->
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
