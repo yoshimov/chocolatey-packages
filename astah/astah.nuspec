@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>astah</id>
-    <title>astah</title>
+    <title>astah* community</title>
     <version>6.6.3.20120925</version>
-    <authors>Change Vision Inc.</authors>
+    <authors>ChangeVision Inc.</authors>
     <owners>Yoshimov</owners>
     <summary>A free UML editor - that is ready to use the instant you download it, allowing your UML diagrams to be quickly and easily enhanced. </summary>
     <description>A free UML editor - that is ready to use the instant you download it, allowing your UML diagrams to be quickly and easily enhanced. </description>
