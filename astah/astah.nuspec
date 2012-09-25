@@ -3,16 +3,16 @@
   <metadata>
     <id>astah</id>
     <title>astah</title>
-    <version>6.6.3</version>
+    <version>6.6.3.20120925</version>
     <authors>Change Vision Inc.</authors>
     <owners>Yoshimov</owners>
     <summary>A free UML editor - that is ready to use the instant you download it, allowing your UML diagrams to be quickly and easily enhanced. </summary>
     <description>A free UML editor - that is ready to use the instant you download it, allowing your UML diagrams to be quickly and easily enhanced. </description>
     <projectUrl>http://astah.net/</projectUrl>
-    <tags>astah uml diagram</tags>
+    <tags>astah uml diagram editor</tags>
     <copyright>Change Vision Inc.</copyright>
     <licenseUrl>http://astah.net/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/astah/AstahLogo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
