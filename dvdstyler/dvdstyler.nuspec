@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dvdstyler</id>
+    <title>DVDStyler</title>
+    <version>2.3</version>
+    <authors>Alex Thuring</authors>
+    <owners>Yoshimov</owners>
+    <summary>DVDStyler is a cross-platform free DVD authoring application for the creation of professional-looking DVDs.</summary>
+    <description>DVDStyler is a cross-platform free DVD authoring application for the creation of professional-looking DVDs.</description>
+    <projectUrl>http://www.dvdstyler.org/</projectUrl>
+    <tags>dvdstyler dvd authoring</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.dvdstyler.org/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/dvdstyler/logo.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
