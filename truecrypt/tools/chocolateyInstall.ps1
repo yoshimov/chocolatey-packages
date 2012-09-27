@@ -1,7 +1,6 @@
 ﻿try {
   # obtain download id from web
   [void]([Reflection.Assembly]::LoadWithPartialName("System.Web"))
-  $word = [Web.HttpUtility]::UrlEncode($word)
   $url = 'http://www.truecrypt.org/downloads'
   $webReq = [Net.HttpWebRequest]::Create("$url")
   $webReq.Method = "GET"
@@ -24,7 +23,7 @@
   Install-ChocolateyPackage 'truecrypt' 'EXE' '/S' "$downUrl" -validExitCodes @(0)
   
   # the following is all part of error handling
-  #Write-ChocolateySuccess 'truecrypt'
+  Write-ChocolateySuccess 'truecrypt'
 } catch {
   Write-ChocolateyFailure 'truecrypt' "$($_.Exception.Message)"
   throw 
