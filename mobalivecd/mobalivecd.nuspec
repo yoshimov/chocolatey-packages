@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mobalivecd</id>
+    <title>MobaLiveCD</title>
+    <version>2.1</version>
+    <authors>Mobatek</authors>
+    <owners>Yoshimov</owners>
+    <summary>MobaLiveCD is a freeware that will run your Linux LiveCD on Windows thanks to the excellent emulator called "Qemu".</summary>
+    <description>MobaLiveCD is a freeware that will run your Linux LiveCD on Windows thanks to the excellent emulator called "Qemu". Please execute the link as administrator.</description>
+    <projectUrl>http://mobalivecd.mobatek.net/en/</projectUrl>
+    <tags>audacity admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://mobalivecd.mobatek.net/en/support/licenses.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/movalivecd/movalivecd_128.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
