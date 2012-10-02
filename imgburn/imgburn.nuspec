@@ -2,18 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>imgburn</id>
-    <title>imgburn</title>
-    <version>__REPLACE__</version>
-    <authors>__REPLACE__</authors>
+    <title>ImgBurn</title>
+    <version>2.5.7</version>
+    <authors>Lightning UK</authors>
     <owners>Yoshimov</owners>
-    <summary>imgburn</summary>
-    <description>imgburn</description>
-    <projectUrl>__REPLACE__</projectUrl>
-    <tags>imgburn admin</tags>
-    <copyright></copyright>
-    <licenseUrl>__REPLACE__</licenseUrl>
+    <summary>ImgBurn is a lightweight CD / DVD / HD DVD / Blu-ray burning application that everyone should have in their toolkit!</summary>
+    <description>ImgBurn is a lightweight CD / DVD / HD DVD / Blu-ray burning application that everyone should have in their toolkit!</description>
+    <projectUrl>http://www.imgburn.com/</projectUrl>
+    <tags>imgburn cd dvd iso</tags>
+    <copyright>Copyright c 2005 - 2012 LIGHTNING UK!</copyright>
+    <licenseUrl>http://www.imgburn.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/imgburn/imgburn.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/imgburn/logo_imgburn.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
