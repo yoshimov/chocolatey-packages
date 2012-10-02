@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.libreoffice.org/download/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/libreoffice/libreoffice.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/libreoffice/Libreoffice_icon_mix.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
