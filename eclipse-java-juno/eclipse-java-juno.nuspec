@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>eclipse-java-juno</id>
-    <title>eclipse-java-juno</title>
-    <version>4.2.20120920</version>
-    <authors>Eclipse Org</authors>
+    <title>Eclipse IDE for Java Developers (Juno)</title>
+    <version>4.2.20121004</version>
+    <authors>Eclipse Foundation</authors>
     <owners>Yoshimov</owners>
     <summary>an open source, robust, full-featured, commercial-quality, industry platform for the development of highly integrated tools and rich client applications</summary>
     <description>an open source, robust, full-featured, commercial-quality, industry platform for the development of highly integrated tools and rich client applications</description>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.eclipse.org/org/documents/epl-v10.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/eclipse-java-juno/eclipse-java-juno.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/eclipse-java-juno/Eclipse_Icon_by_flosweb.png</iconUrl>
     <dependencies>
       <dependency id="binroot" version="" />
     </dependencies>
