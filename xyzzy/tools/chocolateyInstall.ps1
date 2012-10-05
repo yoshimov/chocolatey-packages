@@ -1,4 +1,4 @@
-﻿#try { #error handling is only necessary if you need to do anything in addition to/instead of the main helpers
+﻿try {
   $parentpath = "$(Split-Path -parent $(Split-Path -parent $MyInvocation.MyCommand.Definition))"
   Get-ChocolateyWebFile 'xyzzy' "$parentpath\xyzzy.lzh" 'http://www.jsdlab.co.jp/~kamei/cgi-bin/download.cgi'
   cmd /c "$parentpath\tools\extractlzh.bat"
@@ -9,7 +9,7 @@
   Install-ChocolateyDesktopLink $target
   
   #Write-ChocolateySuccess 'xyzzy'
-#} catch {
-  #Write-ChocolateyFailure 'xyzzy' "$($_.Exception.Message)"
-  #throw 
-#}
+} catch {
+  Write-ChocolateyFailure 'xyzzy' "$($_.Exception.Message)"
+  throw 
+}
