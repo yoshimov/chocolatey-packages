@@ -3,13 +3,13 @@
   <metadata>
     <id>mediacoder</id>
     <title>MediaCoder</title>
-    <version>0.8.13.5280</version>
+    <version>0.8.16.5292</version>
     <authors>Wikki</authors>
     <owners>Yoshimov</owners>
     <summary>MediaCoder is a free universal media transcoder since 2005. It integrates most popular audio/video codecs and tools in an elegant and transparent manner into an all-in-one transcoding solution.</summary>
     <description>MediaCoder is a free universal media transcoder since 2005. It integrates most popular audio/video codecs and tools in an elegant and transparent manner into an all-in-one transcoding solution.</description>
     <projectUrl>http://www.mediacoderhq.com/</projectUrl>
-    <tags>mediacoder admin</tags>
+    <tags>mediacoder admin convert audio video</tags>
     <copyright></copyright>
     <licenseUrl>http://www.mediacoderhq.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
