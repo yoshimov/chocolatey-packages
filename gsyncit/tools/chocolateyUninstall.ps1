@@ -1,5 +1,5 @@
 ﻿#try {
-  $msid = '{29EC0955-23AA-4B0B-8786-299F71C99387}'
+  $msid = '{FF9A626C-6097-4825-AA5B-0C1AD7CE81B0}'
   Uninstall-ChocolateyPackage 'gsyncit' 'MSI' "$msid" -validExitCodes @(0)
   
   # the following is all part of error handling
