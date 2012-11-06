@@ -1,5 +1,5 @@
 ﻿#try {
-  $downUrl = 'http://binaryeditorbz.googlecode.com/files/BzEditor-1.7.2.exe'
+  $downUrl = 'http://binaryeditorbz.googlecode.com/files/BzEditor-1.7.6.exe'
   # installer, will assert administrative rights
   Install-ChocolateyPackage 'bzeditor' 'EXE' '/S' "$downUrl" -validExitCodes @(0)
   

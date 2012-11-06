@@ -3,13 +3,13 @@
   <metadata>
     <id>bzeditor</id>
     <title>Binary Editor BZ</title>
-    <version>1.7.2</version>
+    <version>1.7.6</version>
     <authors>tamachan c.mos</authors>
     <owners>Yoshimov</owners>
     <summary>Binary file editor for multibyte character.</summary>
     <description>Binary file editor for multibyte character.</description>
     <projectUrl>http://code.google.com/p/binaryeditorbz/</projectUrl>
-    <tags>bzeditor admin binary hex</tags>
+    <tags>bzeditor binary hex editor</tags>
     <copyright></copyright>
     <licenseUrl>http://code.google.com/p/binaryeditorbz/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
