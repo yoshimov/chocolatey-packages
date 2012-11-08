@@ -2,7 +2,13 @@
   # obtain download id from web page
   [void]([Reflection.Assembly]::LoadWithPartialName("System.Web"))
   $word = [Web.HttpUtility]::UrlEncode($word)
-  $url = 'http://members.change-vision.com/files/astah_community/6_6_3/astah-community-6_6_3.zip'
+  $processor = Get-WmiObject Win32_Processor
+  $is64bit = $processor.AddressWidth -eq 64
+  if ($is64bit) {
+    $url = 'http://members.change-vision.com/files/astah_community/6_6_4/astah-community-6_6_4-41775-jre-64bit-setup.exe'
+  } else {
+    $url = 'http://members.change-vision.com/files/astah_community/6_6_4/astah-community-6_6_4-41775-jre-setup.exe'
+  }
   $webReq = [Net.HttpWebRequest]::Create("$url")
   $webReq.Method = "GET"
 
@@ -12,17 +18,14 @@
   $sr.Close()
   $webRes.Close()
 
-  if($content -match '<a href="(/files/([0-9A-Za-z_\-]+)/astah_community/.+zip;jsessionid=([0-9A-Z]+))"')
+  if($content -match '<a href="(/files/([0-9A-Za-z_\-]+)/astah_community/.+exe;jsessionid=[0-9A-Z]+)"')
   {
      $did = "$($matches[1])"
   }
 
   $downUrl = "http://members.change-vision.com${did}"
   $parentpath = "$(Split-Path -parent $(Split-Path -parent $MyInvocation.MyCommand.Definition))"
-  Install-ChocolateyZipPackage 'astah' "$downUrl" "$parentpath" 
-  
-  $target = Join-Path $parentpath 'astah_community\astah-com.exe'
-  Install-ChocolateyDesktopLink $target
+  Install-ChocolateyPackage 'astah' 'EXE' '/SILENT' "$downUrl" -validExitCodes @(0)
   
   Write-ChocolateySuccess 'astah'
 } catch {
