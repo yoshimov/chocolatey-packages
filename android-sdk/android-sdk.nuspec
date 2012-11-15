@@ -3,7 +3,7 @@
   <metadata>
     <id>android-sdk</id>
     <title>android-sdk</title>
-    <version>20.0.3</version>
+    <version>21.0</version>
     <authors>Google</authors>
     <owners>Yoshimov</owners>
     <summary>The Android SDK provides you the API libraries and developer tools necessary to build, test, and debug apps for Android.</summary>
