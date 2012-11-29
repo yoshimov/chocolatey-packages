@@ -4,14 +4,26 @@
     <id>multiavchd</id>
     <title>multiAVCHD</title>
     <version>4.1</version>
-    <authors></authors>
+    <authors>Dean Kasabow</authors>
     <owners>Yoshimov</owners>
-    <summary>multiavchd</summary>
-    <description>multiavchd</description>
-    <projectUrl>__REPLACE__</projectUrl>
-    <tags>multiavchd admin</tags>
+    <summary>multiAVCHD is an open source blu-ray video disk authoring tool.</summary>
+    <description>This program is for those of you, who want to:
+
+* put up to 252 different files (MPEG2, Quicktime MOV, MKV/AVC, AVI/AVC, M2TS/MTS, TS, TRP, M2V, VC1, 264, MP4, MPLS, IFO, etc.) or AVCHD / Blu-ray / DVD / VIDEO_TS folders 
+in one place and navigate all these via nice 1080p top menu:
+
+- XMB style MENU: up-to 252 scrollable titles (similar to Playstation3 cross-media-bar XMB)
+- SLIDE MENU: up-to 252 scrollable titles (similar to Apple iTunes)
+- CAROUSEL MENU: up-to 252 scrollable titles
+
+- TITLE-LIST MENU: 21 pages x 12 titles
+- NO MENU: 252 directly selectable titles during playback
+- POP-UP MENU for each title
+</description>
+    <projectUrl>http://multiavchd.deanbg.com/</projectUrl>
+    <tags>multiavchd avchd bd dvd</tags>
     <copyright></copyright>
-    <licenseUrl>__REPLACE__</licenseUrl>
+    <licenseUrl>http://multiavchd.deanbg.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/multiavchd/multiavchd.gif</iconUrl>-->
     <!--<dependencies>
