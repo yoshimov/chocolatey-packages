@@ -3,17 +3,17 @@
   <metadata>
     <id>xyzzy</id>
     <title>xyzzy</title>
-    <version>0.22.235.20120920</version>
+    <version>0.22.246</version>
     <authors>kamei</authors>
     <owners>Yoshimov</owners>
     <summary>xyzzy is an emacs-like super light weight text editor.</summary>
     <description>xyzzy is an emacs-like super light weight text editor.</description>
-    <projectUrl>http://www.jsdlab.co.jp/~kamei/</projectUrl>
-    <tags>xyzzy admin</tags>
+    <projectUrl>http://xyzzy-022.github.com/</projectUrl>
+    <tags>xyzzy admin emacs editor</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.jsdlab.co.jp/~kamei/</licenseUrl>
+    <licenseUrl>http://xyzzy-022.github.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/xyzzy/xyzzy.gif</iconUrl>-->
+    <iconUrl>https://secure.gravatar.com/avatar/308d590fb7c66cf168d9b9ebeb641a42.png</iconUrl>
     <dependencies>
       <dependency id="7zip.install" version="" />
     </dependencies>
