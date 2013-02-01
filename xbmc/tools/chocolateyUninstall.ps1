@@ -2,15 +2,15 @@
   $processor = Get-WmiObject Win32_Processor
   $is64bit = $processor.AddressWidth -eq 64
   if ($is64bit) {
-    $unpath = "${Env:ProgramFiles}\MediaCoder x64\uninst.exe"
+    $unpath = "${Env:ProgramFiles(x86)}\xbmc\uninstall.exe"
   } else {
-    $unpath = "${Env:ProgramFiles}\MediaCoder\uninst.exe"
+    $unpath = "${Env:ProgramFiles}\xbmc\uninstall.exe"
   }
-  Uninstall-ChocolateyPackage 'mediacoder' 'EXE' '/S' "$unpath" -validExitCodes @(0)
+  Uninstall-ChocolateyPackage 'xbmc' 'EXE' '/S' "$unpath" -validExitCodes @(0)
   
   # the following is all part of error handling
-  Write-ChocolateySuccess 'mediacoder'
+  Write-ChocolateySuccess 'xbmc'
 } catch {
-  Write-ChocolateyFailure 'mediacoder' "$($_.Exception.Message)"
+  Write-ChocolateyFailure 'xbmc' "$($_.Exception.Message)"
   throw 
 }
