@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>scala</id>
-    <title>scala</title>
+    <title>Scala</title>
     <version>2.10.0</version>
     <authors>Scala Developers</authors>
     <owners>Yoshimov</owners>
