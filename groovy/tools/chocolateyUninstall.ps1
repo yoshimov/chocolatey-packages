@@ -1,5 +1,5 @@
 ﻿try {
-  $package = 'groovy-2.0.5'
+  $package = 'groovy-2.1.0'
   $binRoot = "$env:systemdrive\"
   ### Using an environment variable to to define the bin root until we implement configuration ###
   if($env:chocolatey_bin_root -ne $null){$binRoot = join-path $env:systemdrive $env:chocolatey_bin_root}
