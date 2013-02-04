@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dragondisk</id>
+    <title>DragonDisk</title>
+    <version>1.05</version>
+    <authors>Tony Pourchier</authors>
+    <owners>Yoshimov</owners>
+    <summary>DragonDisk is a powerful file manager for Amazon S3R, Google Cloud StorageR, and all cloud storage services that provides compatibility with Amazon S3 API.</summary>
+    <description>DragonDisk is a powerful file manager for Amazon S3R, Google Cloud StorageR, and all cloud storage services that provides compatibility with Amazon S3 API.
+It allows you to backup, share and organize your data thanks to an intuitive interface similar to Windows Explorer's. Its functions and ease of use will persuade you from the start, whether you are an amateur or a professional user.</description>
+    <projectUrl>http://www.dragondisk.com/</projectUrl>
+    <tags>backup amazon tool</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.dragondisk.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/dragondisk/dragondisk.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
