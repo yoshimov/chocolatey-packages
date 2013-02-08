@@ -1,6 +1,6 @@
 ﻿try {
-  # HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\
-  $msid = '{60B2F25C-22CB-4CD9-9168-8C63708DC1A1}'
+  # HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8EA569F1-97AF-4C3E-A0CB-4846C2D35A81}
+  $msid = '{8EA569F1-97AF-4C3E-A0CB-4846C2D35A81}'
   Uninstall-ChocolateyPackage 'libreoffice' 'MSI' "$msid" -validExitCodes @(0)
   
   # the following is all part of error handling
