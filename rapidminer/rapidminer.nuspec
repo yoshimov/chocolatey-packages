@@ -2,18 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>rapidminer</id>
-    <title>rapidminer</title>
-    <version>5.2.008</version>
+    <title>RapidMiner</title>
+    <version>5.3.005</version>
     <authors>Rapid-I</authors>
     <owners>Yoshimov</owners>
     <summary>RapidMiner is unquestionably the world-leading open-source system for data mining.</summary>
     <description>RapidMiner is unquestionably the world-leading open-source system for data mining.</description>
     <projectUrl>http://rapid-i.com/content/view/181/196/</projectUrl>
-    <tags>rapidminer admin</tags>
+    <tags>rapidminer admin mining</tags>
     <copyright></copyright>
     <licenseUrl>http://rapid-i.com/content/view/181/196/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/rapidminer/rapidminer.gif</iconUrl>-->
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/rapidminer/icon.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
