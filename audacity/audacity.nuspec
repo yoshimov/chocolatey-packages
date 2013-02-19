@@ -3,7 +3,7 @@
   <metadata>
     <id>audacity</id>
     <title>Audacity</title>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
     <authors>Audacity Developers</authors>
     <owners>Yoshimov</owners>
     <summary>Audacity is free, open source, cross-platform software for recording and editing sounds.</summary>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://audacity.sourceforge.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/audacity/audacity.gif</iconUrl>-->
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/audacity/logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
