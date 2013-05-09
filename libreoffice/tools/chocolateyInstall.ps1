@@ -4,7 +4,7 @@
     Write-ChocolateyFailure 'libreoffice' "Libre office is already installed!"
   }
   else {
-    $downUrl = 'http://download.documentfoundation.org/libreoffice/stable/4.0.2/win/x86/LibreOffice_4.0.2_Win_x86.msi'
+    $downUrl = 'http://download.documentfoundation.org/libreoffice/stable/4.0.3/win/x86/LibreOffice_4.0.3_Win_x86.msi'
     # installer, will assert administrative rights
     Install-ChocolateyPackage 'libreoffice' 'MSI' '/passive' "$downUrl" -validExitCodes @(0)
     # the following is all part of error handling
