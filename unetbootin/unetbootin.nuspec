@@ -3,7 +3,7 @@
   <metadata>
     <id>unetbootin</id>
     <title>UNetbootin</title>
-    <version>5.8.1</version>
+    <version>5.8.3</version>
     <authors>Unetbootin Developers</authors>
     <owners>Yoshimov</owners>
     <summary>UNetbootin allows you to create bootable Live USB drives for Ubuntu, Fedora, and other Linux distributions without burning a CD.</summary>
