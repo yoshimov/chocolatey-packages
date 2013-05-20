@@ -3,7 +3,7 @@
   <metadata>
     <id>prototyper</id>
     <title>Prototyper Free Edition</title>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
     <authors>justinmind</authors>
     <owners>Yoshimov</owners>
     <summary>Create Clickable Wireframes for Mobile and Web Apps:
@@ -15,7 +15,7 @@ quick, easy and Free!</description>
     <copyright></copyright>
     <licenseUrl>http://www.justinmind.com/prototyper/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/prototyper/prototyper.gif</iconUrl>-->
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/prototyper/logo-free.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
