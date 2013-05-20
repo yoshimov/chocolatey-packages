@@ -1,5 +1,5 @@
 ﻿try {
-  $clsid='{1062AD6C-80F4-4BC6-AB7C-A28892B497B8}'
+  $clsid='{F77ED0CD-2E5E-4FC7-82E0-BB7D461E739F}'
   Uninstall-ChocolateyPackage 'libreoffice' 'MSI' "$clsid" -validExitCodes @(0)
   
   # the following is all part of error handling
