@@ -1,6 +1,6 @@
 ﻿try {
   # installer, will assert administrative rights
-  $downUrl = 'http://mirror.optusnet.com.au/xbmc/releases/win32/xbmc-12.0.exe'
+  $downUrl = 'http://ftp.sunet.se/pub/multimedia/xbmc/releases/win32/xbmc-12.2.exe'
   $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   Install-ChocolateyPackage 'xbmc' 'EXE' '/S' "$downUrl" -validExitCodes @(0)
   
