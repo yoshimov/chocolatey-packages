@@ -14,6 +14,6 @@
     <licenseUrl>http://www.libreoffice.org/download/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/libreoffice/LibreOffice-icon-128px.png</iconUrl>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>Fixed uninstaller</releaseNotes>
   </metadata>
 </package>
