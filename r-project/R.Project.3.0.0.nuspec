@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>R.Project</id>
-        <version>3.0.0</version>
+        <version>3.0.1</version>
         <title>The R Project for Statistical Computing</title>
         <authors>R Core Team</authors>
         <owners>Elliando Dias</owners>
