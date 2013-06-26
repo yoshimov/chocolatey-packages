@@ -3,13 +3,13 @@
   <metadata>
     <id>cevio</id>
     <title>CeVIO Creative Studio FREE</title>
-    <version>1.0.1</version>
+    <version>1.2.4.2</version>
     <authors>CeVIO Project</authors>
     <owners>Yoshimov</owners>
     <summary>CeVIO is a voice generation software for User Generated Contents in Japanese.</summary>
     <description>CeVIO is a voice generation software for User Generated Contents in Japanese.</description>
     <projectUrl>http://cevio.jp/</projectUrl>
-    <tags>cevio voice tool</tags>
+    <tags>cevio voice sing tool</tags>
     <copyright></copyright>
     <licenseUrl>http://cevio.jp/application/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
