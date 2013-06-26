@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>carotdav</id>
+    <title>CarotDAV</title>
+    <version>1.9.9</version>
+    <authors>Hobara Rei</authors>
+    <owners>Yoshimov</owners>
+    <summary>CarotDAV is a simple network storage client for WebDAV, Google Drive, Dropbox, etc.</summary>
+    <description>CarotDAV is a simple network storage client for WebDAV, Google Drive, Dropbox, etc.</description>
+    <projectUrl>http://rei.to/carotdav.html</projectUrl>
+    <tags>carotdav storage tool webdav</tags>
+    <copyright>http://rei.to/carotdav.html</copyright>
+    <licenseUrl>http://rei.to/carotdav.html#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/carotdav/carot.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+</package>
