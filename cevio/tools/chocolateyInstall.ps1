@@ -7,7 +7,7 @@
   else {
     $downUrl = 'http://cevio.jp/download/CeVIO_Creative_Studio_FREE_Setup_(1.2.4.2).msi'
     # installer, will assert administrative rights
-    Install-ChocolateyPackage "$pkgid" 'MSI' '/passive' "$downUrl" -validExitCodes @(0)
+    Install-ChocolateyPackage "$pkgid" 'MSI' '/passive' "$downUrl"
     # the following is all part of error handling
     Write-ChocolateySuccess "$pkgid"
   }
