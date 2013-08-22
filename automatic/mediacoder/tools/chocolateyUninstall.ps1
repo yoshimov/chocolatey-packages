@@ -9,8 +9,8 @@
   Uninstall-ChocolateyPackage 'mediacoder' 'EXE' '/S' "$unpath" -validExitCodes @(0)
   
   # the following is all part of error handling
-  Write-ChocolateySuccess 'mediacoder'
+  Write-ChocolateySuccess '{{PackageName}}'
 } catch {
-  Write-ChocolateyFailure 'mediacoder' "$($_.Exception.Message)"
+  Write-ChocolateyFailure '{{PackageName}}' "$($_.Exception.Message)"
   throw 
 }
