@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>UltraVNC</title>
+    <version>{{PackageVersion}}</version>
+    <authors>uvnc</authors>
+    <owners>Yoshimov</owners>
+    <summary>UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen.</summary>
+    <description>UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen.</description>
+    <projectUrl>http://www.uvnc.com/</projectUrl>
+    <tags>ultravnc admin vnc client server remote</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.uvnc.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/ultravnc/ultravnc.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>

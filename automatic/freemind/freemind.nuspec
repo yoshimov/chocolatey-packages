@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>freemind</title>
+    <version>{{PackageVersion}}</version>
+    <authors>christianfoltin</authors>
+    <owners>Yoshimov</owners>
+    <summary>FreeMind is a premier free mind-mapping software written in Java.</summary>
+    <description>FreeMind is a premier free mind-mapping software written in Java.</description>
+    <projectUrl>http://freemind.sourceforge.net/wiki/index.php/Main_Page</projectUrl>
+    <tags>freemind diagram tool</tags>
+    <copyright></copyright>
+    <licenseUrl>http://freemind.sourceforge.net/wiki/index.php/Main_Page#License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/freemind/freemind.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>{{PackageName}}</id>
+        <version>{{PackageVersion}}</version>
+        <title>XBMC</title>
+        <authors>XBMC Foundation</authors>
+        <owners>Yoshimov</owners>
+        <licenseUrl>http://xbmc.org/</licenseUrl>
+        <projectUrl>http://xbmc.org/</projectUrl>
+        <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/xbmc/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>XBMC is an award-winning free and open source (GPL) software media player and entertainment hub for digital media. XBMC is available for Linux, OSX, and Windows. Created in 2003 by a group of like minded programmers, XBMC is a non-profit project run and developed by volunteers located around the world.</description>
+        <summary>XBMC is an award-winning free and open source (GPL) software media player and entertainment hub for digital media.</summary>
+        <releaseNotes />
+        <copyright />
+        <tags>xbmc mediaserver video dlna</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+    </files>
+</package>
