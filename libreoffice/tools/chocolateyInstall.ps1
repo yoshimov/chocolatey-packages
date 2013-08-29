@@ -5,13 +5,13 @@
     Write-Host "LibreOffice is already installed!"
   }
   else {
-    $downUrl = '{{DownloadUrl}}'
+    $downUrl = 'http://download.documentfoundation.org/libreoffice/stable/4.1.1/win/x86/LibreOffice_4.1.1_Win_x86.msi'
     # installer, will assert administrative rights
-    Install-ChocolateyPackage '{{PackageName}}' 'MSI' '/passive' "$downUrl" -validExitCodes @(0)
+    Install-ChocolateyPackage 'libreoffice' 'MSI' '/passive' "$downUrl" -validExitCodes @(0)
     # the following is all part of error handling
-    Write-ChocolateySuccess '{{PackageName}}'
+    Write-ChocolateySuccess 'libreoffice'
   }
 } catch {
-  Write-ChocolateyFailure '{{PackageName}}' "$($_.Exception.Message)"
+  Write-ChocolateyFailure 'libreoffice' "$($_.Exception.Message)"
   throw 
 }
