@@ -1,8 +1,7 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="26290ab2-d369-4c64-a218-7fd4f12b0dda">
-    <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Jobs>
+    <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
@@ -72,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>6399776</LastFileSize>
-    <LastFileDate>2013-08-23T01:11:38.8900357</LastFileDate>
+    <LastFileSize>9999832</LastFileSize>
+    <LastFileDate>2013-09-13T10:37:02.4761177</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -92,8 +91,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
+            <VariableType>RegularExpression</VariableType>
+            <Regex>FreeFileSync_(.+)_Windows</Regex>
             <Url>http://sourceforge.net/projects/freefilesync/files/freefilesync/</Url>
             <StartText>&lt;tr title="v</StartText>
             <EndText>" class="folder warn"&gt;</EndText>
@@ -118,16 +117,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand />
+    <ExecutePreCommand>C:\Chocolatey\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+REM /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\FreeFileSync_5.20_Windows_Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\FreeFileSync_5.21_Windows_Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-08-23T01:11:38.8900357</LastUpdated>
+    <LastUpdated>2013-09-13T10:37:02.4761177</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://heanet.dl.sourceforge.net/project/freefilesync/freefilesync/v{version}/FreeFileSync_{version}_Windows_Setup.exe</FixedDownloadUrl>
     <Name>freefilesync</Name>
