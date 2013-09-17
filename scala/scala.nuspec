@@ -16,6 +16,7 @@
     <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/scala/logo.png</iconUrl>
     <dependencies>
       <dependency id="binroot" version="" />
+      <dependency id="javaruntime" version="[6.0,8.0)" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
