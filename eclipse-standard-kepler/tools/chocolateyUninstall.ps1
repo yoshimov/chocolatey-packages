@@ -1,4 +1,4 @@
-﻿try {
+﻿#try {
   $cname = "eclipse-standard-kepler"
   $package = 'eclipse-kepler-4.3'
 
@@ -10,8 +10,8 @@
   $installDir = Join-Path $binRoot $package
   Remove-Item -Force -Recurse $installDir
 
-  Write-ChocolateySuccess "$name"
-} catch {
-  Write-ChocolateyFailure "$name" "$($_.Exception.Message)"
+  Write-ChocolateySuccess "$cname"
+#} catch {
+#  Write-ChocolateyFailure "$cname" "$($_.Exception.Message)"
   #throw 
-}
+#}

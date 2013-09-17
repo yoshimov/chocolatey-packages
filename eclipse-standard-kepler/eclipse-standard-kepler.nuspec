@@ -3,7 +3,7 @@
   <metadata>
     <id>eclipse-standard-kepler</id>
     <title>Eclipse Standard IDE (Kepler)</title>
-    <version>4.3</version>
+    <version>4.3.20130917</version>
     <authors>Eclipse Foundation</authors>
     <owners>Yoshimov</owners>
     <summary>an open source, robust, full-featured, commercial-quality, industry platform for the development of highly integrated tools and rich client applications</summary>
@@ -16,6 +16,7 @@
     <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/eclipse-standard-kepler/Eclipse_Icon_by_flosweb.png</iconUrl>
     <dependencies>
       <dependency id="binroot" version="" />
+      <dependency id="7zip" version="" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
