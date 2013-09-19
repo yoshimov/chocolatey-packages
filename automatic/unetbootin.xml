@@ -1,8 +1,7 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0a60d6b9-cdea-48c4-945c-4feffb4f4d0c">
-    <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Jobs>
+    <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
@@ -73,7 +72,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>5192704</LastFileSize>
-    <LastFileDate>2013-08-23T01:03:01.6012755</LastFileDate>
+    <LastFileDate>2013-07-03T16:46:26+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -128,15 +127,17 @@
             <VariableType>StartEnd</VariableType>
             <Regex />
             <Url>http://sourceforge.net/projects/unetbootin/files/UNetbootin/</Url>
-            <StartText>&lt;tr title="</StartText>
-            <EndText>" class="folder warn"&gt;</EndText>
+            <StartText>&lt;a href="/projects/unetbootin/files/UNetbootin/</StartText>
+            <EndText>/"
+</EndText>
             <Name>real-version</Name>
           </UrlVariable>
         </value>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand />
+    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+REM /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
@@ -145,7 +146,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-08-23T01:03:01.6012755</LastUpdated>
+    <LastUpdated>2013-09-19T12:01:32.9646554+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://garr.dl.sourceforge.net/project/unetbootin/UNetbootin/{real-version}/unetbootin-windows-{real-version}.exe</FixedDownloadUrl>
     <Name>unetbootin</Name>
