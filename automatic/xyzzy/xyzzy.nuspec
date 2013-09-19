@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>xyzzy</title>
+    <version>{{PackageVersion}}</version>
+    <authors>kamei</authors>
+    <owners>Yoshimov</owners>
+    <summary>xyzzy is an emacs-like super light weight text editor.</summary>
+    <description>xyzzy is an emacs-like super light weight text editor.</description>
+    <projectUrl>http://xyzzy-022.github.com/</projectUrl>
+    <tags>xyzzy admin emacs editor</tags>
+    <copyright></copyright>
+    <licenseUrl>http://xyzzy-022.github.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://secure.gravatar.com/avatar/308d590fb7c66cf168d9b9ebeb641a42.png</iconUrl>
+    <dependencies>
+      <dependency id="7zip.install" version="" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
