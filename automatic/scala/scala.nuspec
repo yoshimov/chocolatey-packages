@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>scala</id>
-    <title>Scala</title>
-    <version>2.10.2</version>
+    <id>{{PackageName}}</id>
+    <title>Scala (Portable)</title>
+    <version>{{PackageVersion}}</version>
     <authors>Scala Developers</authors>
     <owners>Yoshimov</owners>
     <summary>Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</summary>
@@ -13,10 +13,9 @@
     <copyright></copyright>
     <licenseUrl>http://www.scala-lang.org/node/146</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/scala/logo.png</iconUrl>
+    <iconUrl>http://tomone.github.io/icons/scala.svg</iconUrl>
     <dependencies>
-      <dependency id="binroot" version="" />
-      <dependency id="javaruntime" version="[6.0,8.0)" />
+      <dependency id="scala.portable" version="" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>

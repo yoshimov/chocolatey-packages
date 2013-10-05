@@ -1,6 +1,6 @@
 ﻿try {
-  $package = 'scala-2.10.2'
-  $pkgid = 'scala'
+  $package = 'scala-{{PackageVersion}}'
+  $pkgid = '{{PackageName}}'
 
   $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
   ### For BinRoot, use the following instead ###
@@ -9,7 +9,7 @@
   if($env:chocolatey_bin_root -ne $null){$binRoot = join-path $env:systemdrive $env:chocolatey_bin_root}
   $installDir = Join-Path $binRoot $package
   Write-Host "Adding `'$installDir`' to the path and the current shell path"
-  $zipUrl = 'http://www.scala-lang.org/files/archive/scala-2.10.2.zip'
+  $zipUrl = '{{DownloadUrl}}'
 
   Install-ChocolateyZipPackage $pkgid "$zipUrl" "$binRoot"
   
