@@ -1,10 +1,12 @@
 ﻿function Find-CID {
   param([String]$croot, [string]$cdname, [string]$ver)
 
-  Get-ChildItem -Force -Path $croot | foreach {
-    $CurrentKey = (Get-ItemProperty -Path $_.PsPath)
-    if ($CurrentKey -match $cdname -and $CurrentKey -match $ver) {
-      return $CurrentKey.PsChildName
+  if (Test-Path $croot) {
+    Get-ChildItem -Force -Path $croot | foreach {
+      $CurrentKey = (Get-ItemProperty -Path $_.PsPath)
+      if ($CurrentKey -match $cdname -and $CurrentKey -match $ver) {
+        return $CurrentKey.PsChildName
+      }
     }
   }
   return $null

@@ -18,19 +18,19 @@ function Find-CID {
 #try {
   $uroot = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
   $uroot64 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
-  $msid = Find-CID $uroot "gSyncIt" "$version"
+  $msid = Find-CID $uroot "inSSIDer" "$version"
   if ($msid -eq $null) {
     # try 64bit registry
-    $msid = Find-CID $uroot64 "gSyncIt" "$version"
+    $msid = Find-CID $uroot64 "inSSIDer" "$version"
   }
   if ($msid -eq $null) {
     Write-ChocolateyFailure $cname "$cname is not found."
+  } else {
+
+    Uninstall-ChocolateyPackage '{{PackageName}}' 'MSI' "$msid" -validExitCodes @(0)
+    Write-ChocolateySuccess '{{PackageName}}'
   }
-  Uninstall-ChocolateyPackage $cname 'MSI' "$msid" -validExitCodes @(0)
-  
-  # the following is all part of error handling
-  Write-ChocolateySuccess $cname
 #} catch {
-#  Write-ChocolateyFailure $cname "$($_.Exception.Message)"
+#  Write-ChocolateyFailure '{{PackageName}}' "$($_.Exception.Message)"
 #  throw 
 #}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>inSSIDer for Home</title>
+    <version>{{PackageVersion}}</version>
+    <authors>metageek</authors>
+    <owners>Yoshimov</owners>
+    <summary>inSSIDer for Home gives you visibility into your Wi-Fi environment, showing you the security, signal strength, MAC address, and channel of all access points in your area. Since 2008 inSSIDer has been the standard Wi-Fi discovery tool for millions of Wi-Fi users worldwide.</summary>
+    <description>inSSIDer for Home gives you visibility into your Wi-Fi environment, showing you the security, signal strength, MAC address, and channel of all access points in your area. Since 2008 inSSIDer has been the standard Wi-Fi discovery tool for millions of Wi-Fi users worldwide.</description>
+    <projectUrl>http://www.metageek.net/products/inssider/</projectUrl>
+    <tags>wifi analyze tool</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.metageek.net/products/inssider/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.metageek.net/images/products/inssider-landing/inSSIDer-For-Home_Product-Page_logo.jpg</iconUrl>
+    <releaseNotes>Fixed uninstaller</releaseNotes>
+  </metadata>
+</package>
