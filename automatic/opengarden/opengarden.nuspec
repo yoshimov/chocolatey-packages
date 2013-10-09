@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>{{PackageName}}</id>
+        <version>{{PackageVersion}}</version>
+        <title>Open Garden</title>
+        <authors>Open Garden Inc.</authors>
+        <owners>Yoshimov</owners>
+        <licenseUrl>http://opengarden.com/</licenseUrl>
+        <projectUrl>http://opengarden.com/</projectUrl>
+        <iconUrl>http://opengarden.com/assets/img/logo200.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Open Garden provides consumers with the best of mesh networking through a simple and ready to use app.</description>
+        <summary>Open Garden provides consumers with the best of mesh networking through a simple and ready to use app.</summary>
+        <releaseNotes />
+        <copyright />
+        <tags>mesh wifi network bluetooth</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+    </files>
+</package>
