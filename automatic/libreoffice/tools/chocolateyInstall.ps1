@@ -26,7 +26,7 @@ $version = '{{PackageVersion}}'
     $msid = Find-CID $uroot64 "LibreOffice" "$version"
   }
   if ($msid -ne $null) {
-    Write-ChocolateyFailure $cname "LibreOffice is already installed!"
+    Write-Host "LibreOffice is already installed!"
   } else {
 
    $downUrl = '{{DownloadUrl}}'
