@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
@@ -13,7 +13,7 @@
     <copyright>Copyright c 2005 - 2012 LIGHTNING UK!</copyright>
     <licenseUrl>http://www.imgburn.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/imgburn/logo_imgburn.png</iconUrl>
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/automatic/imgburn/imgburn.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.mediacoderhq.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/mediacoder/logo.png</iconUrl>
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/automatic/mediacoder/logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
