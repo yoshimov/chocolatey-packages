@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://unetbootin.sourceforge.net/#credits</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/unetbootin/icon.png</iconUrl>
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/automatic/unetbootin/icon.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

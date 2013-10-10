@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://freemind.sourceforge.net/wiki/index.php/Main_Page#License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/freemind/freemind.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/automatic/freemind/freemind.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
