@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>synkron</id>
-    <title>synkron</title>
-    <version>1.6.2.20120920</version>
+    <id>{{PackageName}}</id>
+    <title>Synkron</title>
+    <version>{{PackageVersion}}</version>
     <authors>Matu? Tomlein</authors>
     <owners>Yoshimov</owners>
     <summary>Synkron is an application that helps you keep your files and folders always updated.</summary>
@@ -13,7 +13,7 @@
     <copyright>Matu? Tomlein</copyright>
     <licenseUrl>http://synkron.sourceforge.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/synkron/synkron.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/automatic/synkron/synkron.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

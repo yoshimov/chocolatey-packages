@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>dia</id>
-    <title>dia</title>
-    <version>0.97.2</version>
+    <id>{{PackageName}}</id>
+    <title>Dia</title>
+    <version>{{PackageVersion}}</version>
     <authors>Steffen Macke</authors>
     <owners>Yoshimov</owners>
     <summary>Dia is a program to draw structured diagrams.</summary>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://dia-installer.de/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/dia/dia.gif</iconUrl>-->
+    <iconUrl>http://tomone.github.io/icons/dia.svg</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

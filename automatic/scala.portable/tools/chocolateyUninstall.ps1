@@ -1,6 +1,6 @@
 ﻿try {
-  $package = 'scala-2.10.2'
-  $pkgid = 'scala'
+  $package = 'scala-{{PackageVersion}}'
+  $pkgid = '{{PackageName}}'
 
   $binRoot = "$env:systemdrive\"
   ### Using an environment variable to to define the bin root until we implement configuration ###

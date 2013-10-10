@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>android-sdk</id>
+    <id>{{PackageName}}</id>
     <title>Android SDK</title>
-    <version>21.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>Google</authors>
     <owners>Yoshimov</owners>
     <summary>The Android SDK provides you the API libraries and developer tools necessary to build, test, and debug apps for Android.</summary>
@@ -13,7 +13,7 @@
     <copyright>Google</copyright>
     <licenseUrl>http://developer.android.com/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/android-sdk/sdk-cube.png</iconUrl>
+    <iconUrl>http://tomone.github.io/icons/android.svg</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
