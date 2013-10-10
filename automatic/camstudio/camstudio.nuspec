@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>camstudio</id>
-    <title>camstudio</title>
-    <version>2.6.294</version>
+    <id>{{PackageName}}</id>
+    <title>CamStudio</title>
+    <version>{{PackageVersion}}</version>
     <authors>CamStudio Developer</authors>
     <owners>Yoshimov</owners>
     <summary>CamStudio is able to record all screen and audio activity on your computer and create industry-standard AVI video files and using its built-in SWF Producer can turn those AVIs into lean, mean, bandwidth-friendly Streaming Flash videos (SWFs)</summary>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://camstudio.org/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/camstudio/camstudio.gif</iconUrl>-->
+    <iconUrl>https://raw.github.com/yoshimov/chocolatey-packages/master/automatic/camstudio/camstudio.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
