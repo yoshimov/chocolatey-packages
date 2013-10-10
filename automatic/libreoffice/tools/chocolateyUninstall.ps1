@@ -24,7 +24,7 @@ function Find-CID {
     $msid = Find-CID $uroot64 "LibreOffice" "$version"
   }
   if ($msid -eq $null) {
-    Write-ChocolateyFailure $cname "$cname is not found."
+    Write-Host "$cname is not found."
   } else {
 
     Uninstall-ChocolateyPackage '{{PackageName}}' 'MSI' "$msid" -validExitCodes @(0)
