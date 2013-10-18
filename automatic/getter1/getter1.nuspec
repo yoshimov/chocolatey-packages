@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>getter1</id>
+    <id>{{PackageName}}</id>
     <title>Getter1</title>
-    <version>4.2</version>
+    <version>{{PackageVersion}}</version>
     <authors>SolidBlueSky</authors>
     <owners>Yoshimov</owners>
     <summary>Simple, clean and rapid file downloader in Japanese.</summary>
