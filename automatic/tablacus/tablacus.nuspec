@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Tablacus Explorer</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Gaku</authors>
+    <owners>Yoshimov</owners>
+    <summary>Tablacus is an alternative of file explorer which provides simple tabbed view and plugin extensibility.</summary>
+    <description>Tablacus is an alternative of file explorer which provides simple tabbed view and plugin extensibility.</description>
+    <projectUrl>http://www.eonet.ne.jp/~gakana/tablacus/explorer.html</projectUrl>
+    <tags>filer explorer tab</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.eonet.ne.jp/~gakana/tablacus/explorer.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.eonet.ne.jp/~gakana/tablacus/img/te48.png</iconUrl>
+    <dependencies>
+      <dependency id="7zip.install" version="" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
