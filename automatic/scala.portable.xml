@@ -72,7 +72,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>30579762</LastFileSize>
-    <LastFileDate>2013-10-05T20:33:39.5997232</LastFileDate>
+    <LastFileDate>2013-09-27T20:34:26+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -104,6 +104,8 @@
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+REM /disablepush
+%ChocolateyInstall%\bin\chocopkgup.bat /p scala /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
 REM /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
@@ -113,7 +115,7 @@ REM /disablepush</ExecutePreCommand>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-10-05T20:33:39.5997232</LastUpdated>
+    <LastUpdated>2013-10-18T13:09:13.6639062+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.scala-lang.org/files/archive/scala-{version}.zip</FixedDownloadUrl>
     <Name>scala.portable</Name>
