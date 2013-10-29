@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ganttproject</id>
+    <id>{{PackageName}}</id>
     <title>GanttProject</title>
-    <version>2.5.5</version>
+    <version>{{PackageVersion}}</version>
     <authors>Dmitry Barashev, Alexandre Thomas</authors>
     <owners>Yoshimov</owners>
     <summary>GanttProject is a cross-platform desktop tool for project scheduling and management.</summary>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.ganttproject.biz/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/ganttproject/ganttproject_64.png</iconUrl>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/automatic/ganttproject/ganttproject_64.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

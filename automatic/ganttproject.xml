@@ -1,0 +1,84 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="3394b4ff-c03b-4423-ad8c-951b44f046e5">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>13876788</LastFileSize>
+    <LastFileDate>2012-12-15T06:08:41+09:00</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>true</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex>Installer for Windows.+ganttproject\-([\d\.]+)\-r\d+</Regex>
+            <Url>https://code.google.com/p/ganttproject/downloads/list</Url>
+            <StartText>href="detail?name=ganttproject-</StartText>
+            <EndText>-r</EndText>
+            <TextualContent>{versionlong:regexreplace:([\d\.]+)\-.+:$1}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionlong</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>https://code.google.com/p/ganttproject/downloads/list?can=2&amp;q=Windows&amp;colspec=Filename+Summary+Uploaded+Size+DownloadCount</Url>
+            <StartText>detail?name=ganttproject-</StartText>
+            <EndText>.exe</EndText>
+            <Name>versionlong</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+REM /disablepus</ExecutePreCommand>
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\Chocolatey\_work\ganttproject-2.6.1-r1499.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2013-10-29T13:04:31.37624+09:00</LastUpdated>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
+    <FixedDownloadUrl>https://ganttproject.googlecode.com/files/ganttproject-{versionlong}.exe</FixedDownloadUrl>
+    <Name>ganttproject</Name>
+  </ApplicationJob>
+</Jobs>

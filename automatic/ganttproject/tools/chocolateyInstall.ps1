@@ -1,5 +1,5 @@
 ﻿#try {
-  $url = 'http://ganttproject.googlecode.com/files/ganttproject-2.5.5-r1256.exe'
+  $url = '{{DownloadUrl}}'
   Install-ChocolateyPackage 'ganttproject' 'EXE' '/S' "$url" -validExitCodes @(0)
   
   # the following is all part of error handling
