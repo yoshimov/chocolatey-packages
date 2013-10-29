@@ -43,7 +43,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url>https://code.google.com/p/ganttproject/downloads/list?can=2&amp;q=Windows&amp;colspec=Filename+Summary+Uploaded+Size+DownloadCount</Url>
+            <Url>https://code.google.com/p/ganttproject/downloads/list?can=2&amp;q=label%3Arelease+windows&amp;colspec=Filename+Summary+Uploaded+Size+DownloadCount</Url>
             <StartText>detail?name=ganttproject-</StartText>
             <EndText>.exe</EndText>
             <Name>versionlong</Name>
