@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Gitblit Go</title>
+    <version>{{PackageVersion}}</version>
+    <authors>James Moger</authors>
+    <owners>Yoshimov</owners>
+    <summary>Gitblit is an open-source, pure Java stack for managing, viewing, and serving Git repositories.
+It's designed primarily as a tool for small workgroups who want to host centralized repositories.</summary>
+    <description>Gitblit is an open-source, pure Java stack for managing, viewing, and serving Git repositories.
+It's designed primarily as a tool for small workgroups who want to host centralized repositories.</description>
+    <projectUrl>http://gitblit.com/</projectUrl>
+    <tags>git gitblit repository server</tags>
+    <copyright></copyright>
+    <licenseUrl>http://gitblit.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://code.google.com/p/gitblit/logo</iconUrl>
+    <dependencies>
+      <dependency id="7zip.install" version="" />
+      <dependency id="binroot" version="" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
