@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>prototyper</id>
+    <id>{{PackageName}}</id>
     <title>Prototyper Free Edition</title>
-    <version>2.1.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>justinmind</authors>
     <owners>Yoshimov</owners>
     <summary>Create Clickable Wireframes for Mobile and Web Apps:
@@ -11,11 +11,11 @@ quick, easy and Free!</summary>
     <description>Create Clickable Wireframes for Mobile and Web Apps:
 quick, easy and Free!</description>
     <projectUrl>http://www.justinmind.com/prototyper/</projectUrl>
-    <tags>prototyper admin prototyping design</tags>
+    <tags>prototyper prototyping design web</tags>
     <copyright></copyright>
     <licenseUrl>http://www.justinmind.com/prototyper/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/prototyper/logo-free.png</iconUrl>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/automatic/prototyper/logo-free.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
