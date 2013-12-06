@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>13876788</LastFileSize>
-    <LastFileDate>2012-12-15T06:08:41+09:00</LastFileDate>
+    <LastFileSize>13967740</LastFileSize>
+    <LastFileDate>2013-11-27T08:02:04+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -29,7 +29,7 @@
             <Url>https://code.google.com/p/ganttproject/downloads/list</Url>
             <StartText>href="detail?name=ganttproject-</StartText>
             <EndText>-r</EndText>
-            <TextualContent>{versionlong:regexreplace:([\d\.]+)\-.+:$1}</TextualContent>
+            <TextualContent>{versionlong:regexreplace:([\d\.]+)\-r(\d+):$1.$2}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -72,11 +72,11 @@ REM /disablepus</ExecutePreCommand>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\ganttproject-2.6.1-r1499.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\ganttproject-2.6.2-r1544.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-10-29T13:04:31.37624+09:00</LastUpdated>
+    <LastUpdated>2013-12-06T14:44:07.6711576+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>https://ganttproject.googlecode.com/files/ganttproject-{versionlong}.exe</FixedDownloadUrl>
     <Name>ganttproject</Name>
