@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>PlantUML</title>
+    <version>{{PackageVersion}}</version>
+    <authors>PlantUML Developers</authors>
+    <owners>Yoshimov</owners>
+    <summary>PlantUML is a component that allows to quickly write UML diagrams using simple and intuitive language.</summary>
+    <description>PlantUML is a component that allows to quickly write :
+* sequence diagram,
+* use case diagram,
+* class diagram,
+* activity diagram,
+* component diagram,
+* state diagram
+* object diagram
+Diagrams are defined using a simple and intuitive language.
+</description>
+    <projectUrl>http://plantuml.sourceforge.net/</projectUrl>
+    <tags>audacity admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://plantuml.sourceforge.net/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://plantuml.sourceforge.net/logoc.png</iconUrl>
+    <dependencies>
+      <dependency id="graphviz" version="" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
