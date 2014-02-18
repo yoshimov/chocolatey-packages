@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>3099532</LastFileSize>
-    <LastFileDate>2013-10-05T06:10:18.3438567</LastFileDate>
+    <LastFileSize>664984</LastFileSize>
+    <LastFileDate>2014-01-30T03:35:55+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98,7 +98,7 @@
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
             <EndText>&lt;BR&gt;</EndText>
-            <TextualContent>{fileName:regexreplace:.+_([\d\.]+)_r(\d+).+:$1.$2}</TextualContent>
+            <TextualContent>{fileName:regexreplace:.+_v(\d+)\.(\d+).*_r(\d+).+:$1.$2.$3}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -112,7 +112,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{fileName}</TextualContent>
+            <TextualContent>""</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -125,29 +125,29 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
-            <Regex />
+            <Regex>s3\.amazonaws\.com\/[a-z0-9]+\/([a-zA-Z0-9\.:\/]*)\starget</Regex>
             <Url>http://camstudio.org/</Url>
-            <StartText>http://sourceforge.net/projects/camstudio/files/stable/</StartText>
-            <EndText>/download</EndText>
+            <StartText>https://s3.amazonaws.com/</StartText>
+            <EndText>" target="_blank" </EndText>
             <Name>fileName</Name>
           </UrlVariable>
         </value>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
-REM /disablepush</ExecutePreCommand>
+    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
+rem /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\CamStudio_2.7_r316_setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\CamStudio_Setup_v2.7.2_r326_(build_19Oct2013).exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-10-05T06:10:18.3438567</LastUpdated>
+    <LastUpdated>2014-02-18T14:43:58.5706406+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://netcologne.dl.sourceforge.net/project/camstudio/stable/{fileName}</FixedDownloadUrl>
+    <FixedDownloadUrl>https://s3.amazonaws.com/{fileName}</FixedDownloadUrl>
     <Name>camstudio</Name>
   </ApplicationJob>
 </Jobs>
