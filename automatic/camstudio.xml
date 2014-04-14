@@ -135,7 +135,7 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
 rem /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
@@ -145,7 +145,7 @@ rem /disablepush</ExecutePreCommand>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-02-18T14:43:58.5706406+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:19:59.0895777+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>https://s3.amazonaws.com/{fileName}</FixedDownloadUrl>
     <Name>camstudio</Name>

@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>149270680</LastFileSize>
-    <LastFileDate>2013-11-27T18:11:06+09:00</LastFileDate>
+    <LastFileSize>150243528</LastFileSize>
+    <LastFileDate>2013-12-11T18:04:23+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -63,7 +63,7 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
 rem /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
@@ -73,7 +73,7 @@ rem /disablepush</ExecutePreCommand>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-11-29T12:12:35.4026901+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:22:30.794593+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://d2ld3he4yll0xl.cloudfront.net/Prototyper_Free_Windows.exe</FixedDownloadUrl>
     <Name>prototyper</Name>

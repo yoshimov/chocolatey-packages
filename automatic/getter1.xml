@@ -64,7 +64,7 @@ Ver.</StartText>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
 rem /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
@@ -74,7 +74,7 @@ rem /disablepush</ExecutePreCommand>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-10-18T13:34:07.5203804+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:20:35.9445539+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://solidbluesky.com/files/Getter1_win_{shortVer}.zip</FixedDownloadUrl>
     <Name>getter1</Name>

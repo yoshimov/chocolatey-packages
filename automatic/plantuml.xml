@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2303490</LastFileSize>
-    <LastFileDate>2014-01-05T21:56:12+09:00</LastFileDate>
+    <LastFileSize>2305855</LastFileSize>
+    <LastFileDate>2014-02-22T21:41:53+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -66,17 +66,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
 rem /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\plantuml.7990.jar</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\plantuml.7993.jar</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-01-09T17:49:36.3657249+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:20:58.227122+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://jaist.dl.sourceforge.net/project/plantuml/plantuml.{build}.jar</FixedDownloadUrl>
     <Name>plantuml</Name>

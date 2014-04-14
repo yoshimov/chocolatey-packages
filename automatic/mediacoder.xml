@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>67179912</LastFileSize>
-    <LastFileDate>2013-09-10T21:08:43+09:00</LastFileDate>
+    <LastFileSize>62558130</LastFileSize>
+    <LastFileDate>2014-01-08T14:20:40+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -110,7 +110,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>"http://dl.mediacoderhq.com/files001/MediaCoder-x64-{version}.{build}.exe"</TextualContent>
+            <TextualContent>"http://dl.mediacoderhq.com/files/MediaCoder-x64-{version}.{build}.exe"</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -131,19 +131,19 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
 REM /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\MediaCoder-0.8.26.5560.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\MediaCoder-0.8.28.5588.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-09-19T11:42:50.8689115+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:46:32.1807846+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://dl.mediacoderhq.com/files001/MediaCoder-{version}.{build}.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://dl.mediacoderhq.com/files/MediaCoder-{version}.{build}.exe</FixedDownloadUrl>
     <Name>mediacoder</Name>
   </ApplicationJob>
 </Jobs>

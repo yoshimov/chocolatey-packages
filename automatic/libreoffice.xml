@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>215056384</LastFileSize>
-    <LastFileDate>2013-08-24T07:14:25+09:00</LastFileDate>
+    <LastFileSize>220545024</LastFileSize>
+    <LastFileDate>2014-02-14T23:47:57+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -117,17 +117,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>C:\Chocolatey\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
 rem /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\LibreOffice_4.1.1_Win_x86.msi</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\LibreOffice_4.2.1_Win_x86.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-09-26T14:05:04.4712048+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:22:39.4364962+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://download.documentfoundation.org/libreoffice/stable/{version}/win/x86/LibreOffice_{version}_Win_x86.msi</FixedDownloadUrl>
     <Name>libreoffice</Name>

@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>9999832</LastFileSize>
-    <LastFileDate>2013-09-13T10:37:02.4761177</LastFileDate>
+    <LastFileSize>10575008</LastFileSize>
+    <LastFileDate>2014-03-02T07:09:56+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -117,17 +117,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
 REM /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\FreeFileSync_5.21_Windows_Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\FreeFileSync_6.3_Windows_Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-09-13T10:37:02.4761177</LastUpdated>
+    <LastUpdated>2014-03-04T02:20:16.7578847+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://heanet.dl.sourceforge.net/project/freefilesync/freefilesync/v{version}/FreeFileSync_{version}_Windows_Setup.exe</FixedDownloadUrl>
     <Name>freefilesync</Name>

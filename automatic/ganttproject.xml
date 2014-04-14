@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>13967740</LastFileSize>
-    <LastFileDate>2013-11-27T08:02:04+09:00</LastFileDate>
+    <LastFileSize>13979656</LastFileSize>
+    <LastFileDate>2014-02-26T09:23:11+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -66,17 +66,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
 REM /disablepus</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\ganttproject-2.6.2-r1544.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\ganttproject-2.6.5-r1638.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-12-06T14:44:07.6711576+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:20:29.7611804+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>https://ganttproject.googlecode.com/files/ganttproject-{versionlong}.exe</FixedDownloadUrl>
     <Name>ganttproject</Name>

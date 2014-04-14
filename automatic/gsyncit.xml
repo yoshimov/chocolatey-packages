@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5398528</LastFileSize>
-    <LastFileDate>2013-09-18T13:13:02+09:00</LastFileDate>
+    <LastFileSize>5413888</LastFileSize>
+    <LastFileDate>2014-03-02T21:41:06+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -65,17 +65,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"
 rem /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\gSyncit_3_8_9.msi</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\gSyncit_3_8_91.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-09-19T16:52:02.1139428+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:20:51.8160367+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.fieldstonsoftware.com/software/gsyncit3/downloads/gSyncit_{down_version}.msi</FixedDownloadUrl>
     <Name>gsyncit</Name>

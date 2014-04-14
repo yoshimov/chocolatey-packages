@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2134361</LastFileSize>
-    <LastFileDate>2013-08-30T13:41:37+09:00</LastFileDate>
+    <LastFileSize>2135582</LastFileSize>
+    <LastFileDate>2013-11-29T23:42:48+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -49,16 +49,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>%ChocolateyInstall%\bin\chocopkgup.bat /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" </ExecutePreCommand>
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" 
+REM /disablepush</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\xyzzy-0.2.2.251.zip</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\xyzzy-0.2.2.252.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-09-19T12:56:19.8634162+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:23:05.1150136+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://xyzzy-022.github.io/downloads/xyzzy-{version}.zip</FixedDownloadUrl>
     <Name>xyzzy</Name>
