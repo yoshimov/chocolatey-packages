@@ -64,7 +64,7 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://mirrors.xbmc.org/releases/win32/xbmc-{version}.exe" /></FixedDownloadUrl>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://mirrors.xbmc.org/releases/win32/xbmc-{version}{versionname}.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="xbmc" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
@@ -92,7 +92,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=http://mirrors\.xbmc\.org/releases/win32/xbmc\-)[\d\.]+(?=\.exe)</Regex>
+            <Regex>(?&lt;=http://mirrors\.xbmc\.org/releases/win32/xbmc\-)[\d\.]+(?=-?\w*\.exe)</Regex>
             <Url>http://xbmc.org/download/</Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
@@ -100,6 +100,25 @@
             <EndText>&lt;BR&gt;</EndText>
             <TextualContent />
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionname</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=http://mirrors\.xbmc\.org/releases/win32/xbmc\-[\d\.]+)-?\w*(?=\.exe)</Regex>
+            <Url>http://xbmc.org/download/</Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>versionname</Name>
           </UrlVariable>
         </value>
       </item>
@@ -131,7 +150,7 @@ REM /disablepush</ExecutePreCommand>
     <FileHippoId />
     <LastUpdated>2014-03-04T02:23:56.6775237+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://mirrors.xbmc.org/releases/win32/xbmc-{version}.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://mirrors.xbmc.org/releases/win32/xbmc-{version}{versionname}.exe</FixedDownloadUrl>
     <Name>xbmc</Name>
   </ApplicationJob>
 </Jobs>
