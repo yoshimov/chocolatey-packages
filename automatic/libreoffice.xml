@@ -72,7 +72,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>220545024</LastFileSize>
-    <LastFileDate>2014-02-14T23:47:57+09:00</LastFileDate>
+    <LastFileDate>2014-03-04T02:22:39.4364962</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -94,8 +94,8 @@
             <VariableType>StartEnd</VariableType>
             <Regex />
             <Url>https://www.libreoffice.org/download</Url>
-            <StartText>&lt;p&gt;Selected: LibreOffice &lt;b&gt;Windows, version </StartText>
-            <EndText>, English (US)&lt;/b&gt;&lt;/p&gt;</EndText>
+            <StartText>home/dl/win-x86/</StartText>
+            <EndText>/en-US/LibreOffice</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -127,7 +127,7 @@ rem /disablepush</ExecutePreCommand>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-03-04T02:22:39.4364962+09:00</LastUpdated>
+    <LastUpdated>2014-03-04T02:22:39.4364962</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://download.documentfoundation.org/libreoffice/stable/{version}/win/x86/LibreOffice_{version}_Win_x86.msi</FixedDownloadUrl>
     <Name>libreoffice</Name>

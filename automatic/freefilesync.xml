@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>10575008</LastFileSize>
-    <LastFileDate>2014-03-02T07:09:56+09:00</LastFileDate>
+    <LastFileSize>10617384</LastFileSize>
+    <LastFileDate>2014-06-01T21:53:16+09:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -93,7 +93,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>FreeFileSync_(.+)_Windows</Regex>
-            <Url>http://sourceforge.net/projects/freefilesync/files/freefilesync/</Url>
+            <Url>http://www.fosshub.com/FreeFileSync.html</Url>
             <StartText>&lt;tr title="v</StartText>
             <EndText>" class="folder warn"&gt;</EndText>
             <TextualContent />
@@ -123,13 +123,13 @@ REM /disablepush</ExecutePreCommand>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\FreeFileSync_6.3_Windows_Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\FreeFileSync_6.6_Windows_Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-03-04T02:20:16.7578847+09:00</LastUpdated>
+    <LastUpdated>2014-06-07T02:21:23.1724755+09:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://heanet.dl.sourceforge.net/project/freefilesync/freefilesync/v{version}/FreeFileSync_{version}_Windows_Setup.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://www.fosshub.com/download/FreeFileSync_{version}_Windows_Setup.exe</FixedDownloadUrl>
     <Name>freefilesync</Name>
   </ApplicationJob>
 </Jobs>
