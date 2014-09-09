@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>groovy</id>
+    <id>{{PackageName}}</id>
     <title>Groovy</title>
-    <version>2.1.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>SpringSource</authors>
     <owners>Yoshimov</owners>
     <summary>Groovy is like a super version of Java.</summary>
@@ -13,9 +13,10 @@
     <copyright></copyright>
     <licenseUrl>http://groovy.codehaus.org/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/groovy/groovydukemed.jpg</iconUrl>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/automatic/groovy/groovydukemed.jpg</iconUrl>
     <dependencies>
       <dependency id="binroot" version="" />
+      <dependency id="javaruntime" version="" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
