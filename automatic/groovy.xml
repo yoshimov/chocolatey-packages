@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>32927161</LastFileSize>
-    <LastFileDate>2014-07-28T22:52:13+09:00</LastFileDate>
+    <LastFileSize>32977396</LastFileSize>
+    <LastFileDate>2014-12-20T02:43:30.3197102</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,12 +24,11 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://dl.bintray.com/groovy/Distributions/installed_versions.txt</Url>
-            <StartText>Binary Version: </StartText>
-            <EndText>
-Doc</EndText>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Download\-Groovy(\d\.\d\.\d)\"</Regex>
+            <Url>http://groovy.codehaus.org/Download</Url>
+            <StartText>groovy-sdk-</StartText>
+            <EndText>installer.exe</EndText>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -56,11 +55,11 @@ rem /disablepush</ExecutePreCommand>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\groovy-binary-2.3.6.zip</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\groovy-binary-2.3.9.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-09-09T10:29:20.7167108+09:00</LastUpdated>
+    <LastUpdated>2014-12-20T02:43:30.3197102</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://dl.bintray.com/groovy/maven/groovy-binary-{version}.zip</FixedDownloadUrl>
     <Name>groovy</Name>
