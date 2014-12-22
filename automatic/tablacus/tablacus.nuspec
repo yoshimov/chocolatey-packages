@@ -15,7 +15,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://www.eonet.ne.jp/~gakana/tablacus/img/te48.png</iconUrl>
     <dependencies>
-      <dependency id="7zip.install" version="" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
