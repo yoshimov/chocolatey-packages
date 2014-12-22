@@ -11,7 +11,7 @@
     <projectUrl>http://groovy.codehaus.org/</projectUrl>
     <tags>groovy java lang</tags>
     <copyright></copyright>
-    <licenseUrl>http://groovy.codehaus.org/</licenseUrl>
+    <licenseUrl>http://groovy.codehaus.org/License+Information</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/automatic/groovy/groovydukemed.jpg</iconUrl>
     <dependencies>
