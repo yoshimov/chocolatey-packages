@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ultravnc</id>
+        <version>1.2.0.5</version>
+        <title>UltraVNC</title>
+        <authors>uvnc</authors>
+        <owners>BrandonG777</owners>
+        <licenseUrl>http://www.uvnc.com/general/license.html</licenseUrl>
+        <projectUrl>http://www.uvnc.com/</projectUrl>
+        <iconUrl>https://github.com/BrandonG777/chocolatey-packages/raw/master/ultravnc/ultravnc.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen.</description>
+        <summary>UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen.</summary>
+		<tags>ultravnc admin vnc client server remote</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
