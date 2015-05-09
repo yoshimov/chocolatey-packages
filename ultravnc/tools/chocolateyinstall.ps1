@@ -1,6 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
-
-$packageName = 'ultravnc'
+﻿$packageName = 'ultravnc'
 $registryUninstallerKeyName = 'ultravnc'
 $installerType = 'EXE'
 $url = 'http://www.uvnc.eu/download/1205/UltraVNC_1_2_05_X86_Setup.exe'

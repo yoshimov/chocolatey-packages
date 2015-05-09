@@ -9,11 +9,11 @@
         <owners>BrandonG777</owners>
         <licenseUrl>http://www.uvnc.com/general/license.html</licenseUrl>
         <projectUrl>http://www.uvnc.com/</projectUrl>
-        <iconUrl>https://github.com/BrandonG777/chocolatey-packages/raw/master/ultravnc/ultravnc.png</iconUrl>
+        <iconUrl>https://rawgit.com/BrandonG777/chocolatey-packages/42ffd8e8a1066f298bd2790e7c7c39039e09a9d6/ultravnc/ultravnc.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen.</description>
         <summary>UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen.</summary>
-		<tags>ultravnc admin vnc client server remote</tags>
+        <tags>ultravnc admin vnc client server remote</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

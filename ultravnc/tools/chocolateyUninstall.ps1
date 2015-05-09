@@ -1,6 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
-
-$packageName = 'ultravnc'
+﻿$packageName = 'ultravnc'
 $registryUninstallerKeyName = 'Ultravnc2_is1'
 $installerType = 'EXE'
 $silentArgs = '/SILENT'
