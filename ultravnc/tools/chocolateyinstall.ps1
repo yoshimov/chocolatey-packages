@@ -1,5 +1,5 @@
 ﻿$packageName = 'ultravnc'
-$registryUninstallerKeyName = 'ultravnc'
+$registryUninstallerKeyName = 'Ultravnc2_is1'
 $installerType = 'EXE'
 $url = 'http://www.uvnc.eu/download/1205/UltraVNC_1_2_05_X86_Setup.exe'
 $url64 = 'http://www.uvnc.eu/download/1205/UltraVNC_1_2_05_X64_Setup.exe'
