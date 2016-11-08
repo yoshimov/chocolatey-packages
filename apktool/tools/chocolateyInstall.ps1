@@ -1,6 +1,6 @@
 ﻿try {
-  $downUrl = 'http://android-apktool.googlecode.com/files/apktool1.5.2.tar.bz2'
-  $downHelperUrl = 'http://android-apktool.googlecode.com/files/apktool-install-windows-r05-ibot.tar.bz2'
+  $downUrl = 'https://connortumbleson.com/apktool/googlecode/apktool1.5.2.tar.bz2'
+  $downHelperUrl = 'https://connortumbleson.com/apktool/googlecode/apktool-install-windows-r05-ibot.tar.bz2'
   $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   
   Get-ChocolateyWebFile 'apktool' "${toolsDir}\apktool.tbz" "$downUrl"
