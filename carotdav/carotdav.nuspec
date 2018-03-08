@@ -3,7 +3,7 @@
   <metadata>
     <id>carotdav</id>
     <title>CarotDAV</title>
-    <version>1.9.9</version>
+    <version>1.15.2</version>
     <authors>Hobara Rei</authors>
     <owners>Yoshimov</owners>
     <summary>CarotDAV is a simple network storage client for WebDAV, Google Drive, Dropbox, etc.</summary>
